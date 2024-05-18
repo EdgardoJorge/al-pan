@@ -20,6 +20,52 @@
         </div>
     </div>
     <div class="col-start-3 col-end-13 mr-6 row-span-9 mb-6 rounded-xl bg-grayDebil grid grid-cols-10 grid-rows-8 gap-1">
-
+        <table class="w-full">
+        <thead>
+          <tr>
+            <th class="bg-gray-200 text-gray-600 py-3 px-4 text-left">Valve</th>
+            <th class="bg-gray-200 text-gray-600 py-3 px-4 text-left">Harina</th>
+            <th class="bg-gray-200 text-gray-600 py-3 px-4 text-left">Produkt</th>
+            <th class="bg-gray-200 text-gray-600 py-3 px-4 text-left">Lata</th>
+            <th class="bg-gray-200 text-gray-600 py-3 px-4 text-left">Nombre</th>
+            <th class="bg-gray-200 text-gray-600 py-3 px-4 text-left">Presentacion</th>
+            <th class="bg-gray-200 text-gray-600 py-3 px-4 text-left">Sk</th>
+            <th class="bg-gray-200 text-gray-600 py-3 px-4 text-left">Fecha de m</th>
+            <th class="bg-gray-200 text-gray-600 py-3 px-4 text-left">Stack</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border py-4 px-4">a</td>
+            <td class="border py-4 px-4">Harina</td>
+            <td class="border py-4 px-4">Produkt</td>
+            <td class="border py-4 px-4">10023</td>
+            <td class="border py-4 px-4">Hanna sin preparar</td>
+            <td class="border py-4 px-4">10 kg</td>
+            <td class="border py-4 px-4">05-04-2004</td>
+            <td class="border py-4 px-4">10</td>
+          </tr>
+          <tr>
+            <td class="border py-4 px-4">a</td>
+            <td class="border py-4 px-4">Harina</td>
+            <td class="border py-4 px-4">Produkt</td>
+            <td class="border py-4 px-4">10223</td>
+            <td class="border py-4 px-4">Hanna son praptar</td>
+            <td class="border py-4 px-4">10 km</td>
+            <td class="border py-4 px-4">22:08 2024</td>
+            <td class="border py-4 px-4">10</td>
+          </tr>
+          <tr>
+            <td class="border py-4 px-4">a</td>
+            <td class="border py-4 px-4">Harina</td>
+            <td class="border py-4 px-4">Produkt</td>
+            <td class="border py-4 px-4">11223</td>
+            <td class="border py-4 px-4"></td>
+            <td class="border py-4 px-4"></td>
+            <td class="border py-4 px-4">23-09-2004</td>
+            <td class="border py-4 px-4">10</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 @endsection
