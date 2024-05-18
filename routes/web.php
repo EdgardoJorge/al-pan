@@ -15,13 +15,13 @@ route::controller(AdministradorController::class)->group(function () {
 });
 
 route::controller(ProductosController::class)->group(function () {
-    route::get('/productos', 'showProductos');
-    route::get('/productos/{producto}', 'showProductosFiltrar');
-    route::get('/productos/Crear', 'showSeleccionarCre');
-    route::get('/productos/SeleccionarProductoEditar', 'showSeleccionarEdit');
-    route::get('/productos/SeleccionarProductoDelete', 'showSeleccionarDelete');
-    route::put('/productos/{producto}', 'updateProducto');
-    route::delete('/productos/{producto}', 'deleteProducto');
+    Route::get('/productos', [ProductosController::class, 'showProductos']);
+    Route::get('/productos/{producto}', [ProductosController::class, 'showProductosFiltrar']);
+    Route::get('/productos/SeleccionarProductoCrear', [ProductosController::class, 'showSeleccionarCrear']);
+    Route::get('/productos/SeleccionarProductoEditar', [ProductosController::class, 'showSeleccionarEdit']);
+    Route::get('/productos/SeleccionarProductoDelete', [ProductosController::class, 'showSeleccionarDelete']);
+    Route::put('/productos/{producto}', [ProductosController::class, 'updateProducto']);
+    Route::delete('/productos/{producto}', [ProductosController::class, 'deleteProducto']);
 });
 route::controller(ProveedoresController::class)->group(function () {
     route::get('/proveedores', 'showProveedores');
