@@ -18,6 +18,7 @@ class CreateProveedoresTable extends Migration
             $table->string('nombre');
             $table->string('direccion')->nullable();
             $table->string('telefono')->nullable();
+            $table->string('tipo-producto');
             $table->timestamps();
         });
     }

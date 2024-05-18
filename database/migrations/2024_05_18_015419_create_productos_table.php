@@ -17,6 +17,7 @@ class CreateProductosTable extends Migration
             $table->id();
             $table->string('nombre');
             $table->text('descripcion')->nullable();
+            $table->string('presentacion');
             $table->decimal('precio', 8, 2);
             $table->unsignedBigInteger('stock');
             $table->date('fecha_vencimiento')->nullable();
