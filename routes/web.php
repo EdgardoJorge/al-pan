@@ -17,7 +17,7 @@ route::controller(AdministradorController::class)->group(function () {
 route::controller(ProductosController::class)->group(function () {
     route::get('/productos', 'showProductos');
     route::get('/productos/{producto}', 'showProductosFiltrar');
-    route::get('/productos/SeleccionarProductoCrear', 'showSeleccionarCre');
+    route::get('/productos/Crear', 'showSeleccionarCre');
     route::get('/productos/SeleccionarProductoEditar', 'showSeleccionarEdit');
     route::get('/productos/SeleccionarProductoDelete', 'showSeleccionarDelete');
     route::put('/productos/{producto}', 'updateProducto');
