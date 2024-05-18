@@ -15,7 +15,7 @@ class ProductosController extends Controller
     {
         return view('Productos.showProductosFiltrar');
     }
-    public function showSeleccionarCrear()
+    public function showSeleccionarProductCre()
     {
         return view('Productos.showProductosCrear');
     }
